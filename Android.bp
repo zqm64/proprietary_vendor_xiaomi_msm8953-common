@@ -241,9 +241,8 @@ dex_import {
 cc_prebuilt_binary {
 	name: "chargeonlymode",
 	owner: "xiaomi",
-	srcs: ["proprietary/vendor/bin/chargeonlymode"],
+	srcs: ["proprietary/bin/chargeonlymode"],
 	prefer: true,
-	soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
